@@ -1,0 +1,363 @@
+﻿/*****************************************
+	Contenedores
+*****************************************/
+
+html, body {
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+}
+body {
+
+	margin: 0;
+	padding: 0;
+	//background: #fff url('images/background.png');
+	font-family:tahoma;
+        background: #727272;
+}
+a:hover{text-decoration:none; color: #000000} 
+a{text-decoration:none;color: #000000} 
+a:visited{text-decoration:none;color: #000000}
+
+#contenedor {
+	width: 984px;
+	height: 479px;
+	//min-height: 470px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(25,25,25,0.35);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(25,25,25,0.35);
+	box-shadow: 0px 0px 10px 5px rgba(25,25,25,0.35);
+	background-color: white;
+        border-radius: 19px;
+        border-width: 3px;
+	//border-bottom: 5px solid #E1E1E1;
+}
+
+/*****************************************
+	Links Politécnico
+*****************************************/
+
+#usermenu h1 {
+	width: 100%;
+	height: 15px;
+	min-width: 270px;
+	background-color: #0637f8;
+    font-size: 16px;
+	font-weight: normal;
+}
+
+/*#computo{
+    border-color: #000000;
+    border-width: 4px;
+    border-style: solid;
+}*/
+
+/*****************************************
+	Logos
+*****************************************/
+
+#logos {
+	width: 100%;
+	min-width: 970px;
+	height: 100px;
+	/*background-color: #034881;*/
+	background-color: white;
+}
+
+
+
+
+#logos #contenedor-imagenes span {
+	float: right;
+	margin-top: 40px;
+	margin-right: -255px; 
+	color: #6D1A42;
+	font-size: 12px;
+}
+
+
+
+/*****************************************
+	Banner
+*****************************************/
+#banner {
+	width: 970px;
+	height: 100px;
+	background: url('images/banner.jpg');
+}
+/*********************
+Menu Lateral
+
+***********************/
+
+#menu-izq{
+	height: 95px;
+width: 1340px;
+}
+#elegida{
+	float: left;
+	width: 200px;
+	height: 40px;
+	padding: 2px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+        border-radius: 3px;
+	cursor: pointer;
+	background-color: #F2F2F2;
+}
+.funcion{
+	float: left;
+	width: 200px;
+	height: 40px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+        border-radius: 6px;
+	background-color: #BDBDBD;
+}
+.funcion:hover{		
+	background-color: #F2F2F2;	
+}
+#mensajes_sistema{         
+     position:absolute;
+     width:250px;
+     height:30px;
+     top:300px;
+     left:500px;    
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     border-radius: 6px; 
+     padding-top:10px;
+     padding-left:30px;
+     padding-right:30px;
+     background-color:#FF4000;
+     color:#F2FBEF;  
+     z-index:6;
+     cursor:pointer;
+     display:none;
+}
+/*****************************************
+	Section
+*****************************************/
+section {
+	padding: 10px;
+	text-align: justify;
+	position: relative;
+}
+
+section #img-portada {
+	width: 691px;
+	margin: 10px auto;
+}
+
+section #img-pronostico {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+input[type="submit"]{
+	float: right
+}
+
+section #formulario{
+	float: left;
+	width: 930px;
+	height: 470px;
+	padding: 7px;
+	padding-top: 10px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 10px;
+        border-radius: 10px;
+	background-color: #F2F2F2;
+}
+
+section #pestanas{
+	float: left;
+	width: 900px;
+	height: 35px;
+	margin-top: 0px;
+	margin-left: 30px;	
+}
+section .subfuncion{
+	float: left;
+	height: 35px;
+    width: 160px;	
+	background-color: #CEECF5;
+	padding: 3px;
+	font-size: 14px;
+	cursor: pointer;
+	-webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-topright: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+section .subfuncion:hover{
+	background-color: #A9E2F3;
+}
+
+section .lista_meritos{
+ 	float: left;
+	height: 420px;
+    width: 900px;	
+	background-color: #A9E2F3;
+	padding-top: 20px;
+	padding-left: 30px;
+	-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    display:none;    
+}
+section .item_merito{	
+	width: auto;
+	height: 22px;
+	padding-left: 40px;
+	padding-top: 2px;
+	cursor: pointer;
+	text-align: left;
+	font-size: 14px;	
+	background-image: url(images/plus.png);
+	background-repeat: no-repeat;
+}
+section .item_merito:hover{		
+	background-color: #ffffff;
+}
+
+section #contenedor_form{
+    position: absolute;	
+	width: 950px;
+	height: 490px;	
+
+	z-index: 2;	
+	display: none;
+}
+section #fondo_cont_form{
+	position: absolute;
+	width: 950px;
+	height: 490px;
+	opacity: 0.6;
+	z-index: 3;
+	filter:alpha(opacity=60);
+	background-color: #000000;	
+}
+section #cerrar_cont{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	cursor: pointer;
+	top: 5px;
+	left: 915px;
+	z-index: 5;
+	background-image: url(images/close.png);	
+}
+section #carga_ext{
+	position: relative;
+	left: 20px;
+	top: 20px;
+	width: 900px;
+	height: 450px;
+	background-color: #FFFFFF;
+	z-index: 4;
+}
+section #lista_consulta{
+	position: absolute;
+        top:90px;
+        left:60px;
+        display: none;
+}
+section #camposA{
+
+	width: 880px;
+	height: 430px;	
+       float: left;
+        margin-top:20px;
+	margin-left: 20px;
+	overflow:scroll;
+}
+
+/*****************************************
+	Footer
+*****************************************/
+
+footer {
+	width: 900px;
+	margin: 20px auto;
+	color: #494B4D;
+	text-shadow:0px 0px 3px white;
+	text-align: center;
+}
+
+footer h3 {
+	font-size: 12px;
+}
+
+footer p {
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+/*****************************************
+	fielset
+*****************************************/
+
+
+fieldset#archivo{
+	border-color: #01DFD7;
+	width: 79%;
+	margin: auto
+}
+
+fieldset#archivo:hover{
+	border-color: red;
+	width: 79%;
+	margin: auto
+}
+
+fieldset#fechas{
+	border-color: #01DFD7;
+	width: 40%;	
+		
+}
+
+fieldset#fechas:hover{
+	border-color: red;
+	width: 40%;	
+	
+}
+fieldset#r{
+	border-color: #01DFD7;
+	width: 25%;	
+	margin: auto;	
+}
+
+fieldset#r:hover{
+	border-color: red;
+	width: 25%;	
+	margin: auto;	
+}
+
+fieldset#r{
+display: inline;
+}
+fieldset#fechas{
+display: inline;
+}
+
+table {
+   padding-top: 10px;
+   padding-left:80px;
+    
+}
+
+td{
+   //padding: 15px;
+   font-size:15px;
+   text-align: center;
+}
+th{
+     font-weight: bold;
+     font-size: 15px;
+    
+}

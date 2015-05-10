@@ -1,0 +1,126 @@
+fieldset#archivo{
+	border-color: #01DFD7;
+	width: 62%;
+	margin: auto
+}
+
+fieldset#archivo:hover{
+	border-color: red;
+	width: 62%;
+	margin: auto
+}
+
+fieldset#dominio{
+	border-color: #01DFD7;
+	width: 54%;	
+	margin: auto;	
+}
+
+fieldset#dominio:hover{
+	border-color: red;
+	width: 54%;	
+	margin: auto;	
+}
+
+fieldset#archivo2{
+	border-color: #01DFD7;
+	width: 75%;
+	margin: auto
+}
+
+fieldset#archivo2:hover{
+	border-color: red;
+	width: 75%;
+	margin: auto
+}
+
+fieldset#archivo3{
+	border-color: #01DFD7;
+	width: 71%;
+	margin: auto
+}
+
+fieldset#archivo3:hover{
+	border-color: red;
+	width: 71%;
+	margin: auto
+}
+
+fieldset#tipo{
+	border-color: #01DFD7;
+	width: 30%;
+	height: 35%;
+	margin: auto
+}
+
+fieldset#tipo:hover{
+	border-color: red;
+	width: 30%;
+	height: 35%;
+	margin: auto
+}
+
+fieldset#domicilio{
+	border-color: #01DFD7;
+	width: 40%;
+	
+}
+
+fieldset#domicilio:hover{
+	border-color: red;
+	width: 40%;
+	
+}
+
+fieldset#genero{
+	border-color: #01DFD7;
+	width: 40%;
+	
+}
+
+fieldset#genero:hover{
+	border-color: red;
+	width: 40%;
+	
+}
+
+fieldset#genero{
+display: inline;
+}
+fieldset#domicilio{
+display: inline;
+}
+
+input[type="submit"]{
+	float: right
+}
+
+fieldset#diplomado{
+	border-color: #01DFD7;
+	width: 70%;
+	margin: auto;
+	text-align: left
+}
+
+fieldset#diplomado2{
+	border-color: #01DFD7;
+	width: 85%;
+	margin:auto;
+	text-align: left
+}
+
+fieldset#posgrado{
+	border-color: #01DFD7;
+	width: 75%;
+	margin: auto;
+	text-align: left
+}
+
+fieldset#CST{
+	border-color: #01DFD7;
+	width: 75%;
+	margin: auto;
+	text-align: left
+}
+
+
